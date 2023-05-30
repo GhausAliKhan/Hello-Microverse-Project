@@ -1,11 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="ghaus-logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Hello Microverse Project</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -33,13 +29,12 @@
 
 # 📖 Hello Microverse Project <a name="about-project"></a>
 
-> This is my First Microverse Project. I created it using Html, Css and JavaScript
+This is my First Microverse Project. I created it using Html and Css. And also added Linters for Html and Css.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 1- HTML.
 2-CSS
-3-JAVASCRIPT
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -48,15 +43,12 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JAVASCRIPT</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - Add index.html file.
 - Add style.css file.
@@ -67,17 +59,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon
+<a href="https://ghausalikhan.github.io/Hello-Microverse-Project/">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -98,28 +86,39 @@ Run this Command:
 
 ### Install
 
-Install this project with:
-
+First you need to install the node package files
 Run this command:
 
 ```sh
-  cd my-project
+  cd Hello-Microverse-Project
   npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+- In order to use this project you either create branch to add more features.
+- But in order to run the project open index.html with live server
 
-Open index.html with live Server
+### Run Linters
 
-### Run tests
+I have added the linters or tests in order to avoid anykind of typos and ensure the good practices in this project. So while using this repository if you need to check your work in html and css you can use below commands
 
-> Coming Soon
+- in order to run the linter test on index.html:
+
+```sh
+ npx hint .
+```
+
+- in order to run the linter test on stylesheets:
+
+```sh
+ npx styleint "**/*.{css,scss}"
+```
 
 ### Deployment
 
-> Coming Soon
+- You can easily use github pages to deploy your project
+  <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pagess">Useful link about Github Pages</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +158,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project just give it a star
+If you like this project just give it a star -
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
